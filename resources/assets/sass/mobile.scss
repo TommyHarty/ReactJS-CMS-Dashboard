@@ -1,0 +1,23 @@
+$breakpoint-mobile: 600px;
+
+@media screen and (min-width: $breakpoint-mobile) {
+
+
+
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
+  .tablet-gone {
+    display:none!important;
+  }
+
+  .tablet-header-fix {
+    margin-bottom:-18px!important;
+  }
+
+  .tablet-pages-fix {
+    margin-top:54px!important;
+  }
+
+}

@@ -1,0 +1,41 @@
+html, body {
+  font-family: 'Ubuntu', sans-serif!important;
+  /* background:linear-gradient(180deg, #fff 0%, #1fc8db 75%, #2cb5e8 90%);
+  min-height:100vh; */
+}
+
+a:hover, a:focus {
+  text-decoration:none!important;
+}
+
+.above-app-preview-desktop {
+  position: fixed;
+  top: 80px;
+  left: 276px;
+}
+
+.app-preview-desktop {
+  position: fixed;
+  top: 125px;
+  left: 276px;
+}
+
+.active {
+  background-color: rgba(0,0,0,0.14)!important;
+}
+
+.active-top-tier {
+  background-color:rgba(0,0,0,0.07)!important;
+}
+
+.button-bg {
+  background:#1fc8db!important;
+  color:#fff!important;
+  font-weight:bold!important;
+  border-radius:4px!important;
+  box-shadow:0 7px 14px 0 rgba(0, 0, 0, 0.07), 0 3px 6px 0 rgba(0, 0, 0, 0.07);
+}
+
+.button-bg:hover {
+  color:#fff!important;
+}
